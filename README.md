@@ -1,5 +1,5 @@
 ---
-  tags: opening classes, oop, micro
+  tags: opening classes, oop, self, micro
   languages: ruby
 ---
 
