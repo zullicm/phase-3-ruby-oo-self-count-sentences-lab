@@ -3,6 +3,13 @@
 
 class String
   def count_sentences
-    # code goes here
+    ['.', '?', '!'].inject([]) do |memo, punct|
+      if memo == []
+        memo = self.split(punct).delete_if {|w| w.size == 1}
+      else
+        memo = memo.map {|w| w.split(punct)}.flatten.delete_if {|w| w.size == 1}
+      end
+      memo
+    end.size
   end
 end
