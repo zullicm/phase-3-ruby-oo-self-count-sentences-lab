@@ -1,6 +1,7 @@
 ---
   tags: opening classes, oop, self, micro
   languages: ruby
+  resources: 2
 ---
 
 # Counting Sentences
@@ -26,3 +27,6 @@ Get all the tests to pass by completing the body of the `count_sentences` method
 in `count_sentences.rb`.
 
 Run the tests using the `rspec` command from the root of the project.
+## Resources
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [String Docs: split](http://books.flatironschool.com/books/11), page 678
+* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [4.1 Arrays](http://books.flatironschool.com/books/11), page 61
