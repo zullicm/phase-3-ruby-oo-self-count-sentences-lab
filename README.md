@@ -26,4 +26,4 @@ get back a, well, count of sentences in that string. In other words:
 Get all the tests to pass by completing the body of the `count_sentences` method
 in `count_sentences.rb`.
 
-Run the tests using the `rspec` command from the root of the project.
+Run the tests using the `learn` command from the root of the project.
