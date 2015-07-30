@@ -1,8 +1,4 @@
----
-  tags: opening classes, oop, self, micro
-  languages: ruby
-  resources: 2
----
+
 
 # Counting Sentences
 
