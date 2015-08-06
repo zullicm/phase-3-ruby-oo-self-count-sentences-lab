@@ -13,7 +13,7 @@ exercise in OO programming. The practice of adding methods to or altering Ruby's
 
 ### Monkey Patching
 
-Monkey patching is the practice of adding methods to or altering Ruby's core classes. Monkey patching is dangerous! What if, for example, you decide to monkey patch Ruby's String class to produce a quick-fix that shortens a certain section of code in your program. Then, months later, you run into major bugs as a result, or some of your collaboraters don't know about your monkey patch and develop bugs of their own that they don't know the origin of? For reasons like these, monkey patching should be considered very, very carefully. We're going to do it today, just for fun, but you do want to avoid doing it when working on your own programs. 
+Monkey patching is the practice of adding methods to or altering Ruby's core classes. Monkey patching is dangerous! What if, for example, you decide to monkey patch Ruby's String class to produce a quick-fix that shortens a certain section of code in your program. Then, months later, you run into major bugs as a result, or some of your collaborators don't know about your monkey patch and develop bugs of their own that they don't know the origin of? For reasons like these, monkey patching should be considered very, very carefully. We're going to do it today, just for fun, but you do want to avoid doing it when working on your own programs. 
 
 ## Instructions
 
@@ -30,4 +30,4 @@ get back a, well, count of sentences in that string. In other words:
 3. A few things to keep in mind:
 
 * It's difficult to count discreet units of characters in a string. An array, however, is a different stories. Arrays have a great `.count` method. How can you `.split` your string into it's component sentences?
-* Make sure you take into account that a period, a comma, a question mark or an exclaimation point can end a sentence.
+* Make sure you take into account that a period, a comma, a question mark or an exclamation point can end a sentence.
