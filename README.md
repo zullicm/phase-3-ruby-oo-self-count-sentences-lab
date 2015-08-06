@@ -6,10 +6,7 @@
 
 ## Description
 
-In this lab, you'll be adding an instance method to Ruby's `String` class. We
-generally want to avoid altering built-in classes (especially if we are working with
-other people), but in this case, we're not overwriting any methods, and it's a good
-exercise in OO programming. The practice of adding methods to or altering Ruby's built in classes is called monkey patching. 
+In this lab, you'll be adding an instance method to Ruby's `String` class. We generally want to avoid altering built-in classes (especially if we are working with other people), but in this case, we're not overwriting any methods, and it's a good exercise in OO programming. The practice of adding methods to or altering Ruby's built in classes is called monkey patching. 
 
 ### Monkey Patching
 
