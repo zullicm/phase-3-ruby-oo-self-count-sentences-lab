@@ -14,8 +14,7 @@ Monkey patching is the practice of adding methods to or altering Ruby's core cla
 
 ## Instructions
 
-What we'd like to be able to do is call a `count_sentences` method on a string, and
-get back a, well, count of sentences in that string. In other words:
+What we'd like to be able to do is call a `count_sentences` method on a string, and get back a, well, count of sentences in that string. In other words:
 
 ```ruby
 "This is a string. It has three sentences. Right?".count_sentences
