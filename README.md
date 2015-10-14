@@ -26,4 +26,4 @@ What we'd like to be able to do is call a `count_sentences` method on a string, 
 3. A few things to keep in mind:
 
 * It's difficult to count discreet units of characters in a string. An array, however, is a different stories. Arrays have a great `.count` method. How can you `.split` your string into it's component sentences?
-* Make sure you take into account that a period, a comma, a question mark or an exclamation point can end a sentence.
+* Make sure you take into account that a period, a question mark, or an exclamation point can end a sentence.
