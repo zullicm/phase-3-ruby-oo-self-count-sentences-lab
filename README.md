@@ -59,13 +59,3 @@ Think about the steps you need to go through to enact the desired behavior:
 * [`split`](http://ruby-doc.org/core-2.2.0/String.html#method-i-split) the string on any and all periods, question marks and exclamation marks. 
 * [`count`](http://ruby-doc.org/core-2.2.0/Array.html#method-i-count) the number of elements that result from that `split`. 
 * Remember to consider edge cases such as the following sentence: `"This, well, is a sentence. This is too!! And so is this, I think? Woo..."`. What would happen if we split this sentence on the punctuation characters? We would end up with an array that contains empty strings as well as strings containing sentences. How would you eliminate empty strings from an array? We recommend placing `require 'pry'` on the top of the file and placing a `binding.pry` inside of the `#count_sentences` method to help you get this test passing. 
-
-
-
-1. Fork and clone this lab. Run the test suite to get started. 
-2. Check out the `lib/count_sentences.rb` file. You'll be writing you code in the body of the `count_senteces` instance method, a monkey patch on the String class. 
-3. A few things to keep in mind:
-
-* It's difficult to count discreet units of characters in a string. An array, however, is a different stories. Arrays have a great `.count` method. How can you `.split` your string into it's component sentences?
-
-* Make sure you take into account that a period, a question mark, or an exclamation point can end a sentence.
