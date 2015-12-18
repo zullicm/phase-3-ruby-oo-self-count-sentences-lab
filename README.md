@@ -30,7 +30,7 @@ For example:
 
 ```ruby
 "HI!".end_with?("!")
-  => false
+  => true
 ```
 
 Call the `end_with?` method on `self` inside of your `#sentence?` method. 
