@@ -2,6 +2,8 @@
 
 ## Objectives
 
+hey thinkster
+
 1. Practice defining instance methods on a class.
 2. Practice defining instance methods that use the self keyword to operate on the object on which the method is being called.
 2. Learn about monkey patching.
