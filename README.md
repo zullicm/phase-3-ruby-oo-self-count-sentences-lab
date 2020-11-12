@@ -1,4 +1,4 @@
-# Counting Sentences
+# Count Sentences Lab
 
 ## Objectives
 
