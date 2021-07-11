@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-    self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
+    # /\.|\?|!/ is a regular expression that searches for periods, question marks and exclamations in a string
+    self.split(/\.|\?|!/).filter { |sentence| !sentence.empty? }.size
   end
+
 end
