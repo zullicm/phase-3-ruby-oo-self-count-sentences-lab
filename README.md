@@ -99,7 +99,9 @@ string on which it is called.
 Think about the steps you need to go through to enact the desired behavior:
 
 - [`#split`](http://ruby-doc.org/core-2.7.3/String.html#method-i-split) the
-  string on any and all periods, question marks and exclamation marks.
+  string on any and all periods, question marks and exclamation marks. You can
+  do this in a few different ways, but it may help to use a
+  [Regular Expression][ruby regex].
 - [`#count`](http://ruby-doc.org/core-2.7.3/Array.html#method-i-count) the
   number of elements that results from that `#split`.
 
@@ -116,3 +118,10 @@ containing sentences. How would you eliminate empty strings from an array?
 We recommend placing `require 'pry'` on the top of the file and placing a
 `binding.pry` inside of the `#count_sentences` method to help you get this test
 passing.
+
+## Resources
+
+- [Ruby Regular Expression Guide][ruby regex]
+- [Ruby Regular Expression Editor](https://rubular.com/)
+
+[ruby regex]: https://www.rubyguides.com/2015/06/ruby-regex/
