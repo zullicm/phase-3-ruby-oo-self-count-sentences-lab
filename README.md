@@ -34,6 +34,35 @@ should be considered very, very carefully. We're going to do it today, just for
 fun (and to learn about `self`), but you want to avoid doing it when working on
 your own programs.
 
+To see what monkey patching looks like in action, open up IRB. Let's try
+to call a method on a string that definitely doesn't exist in Ruby:
+
+```rb
+"hello".report_on_self
+# NoMethodError (undefined method `report_on_self' for "hello":String)
+```
+
+We can **monkey patch** the `String` class to add an instance method, just like
+we'd add an instance method to one of our own custom classes. Run this in IRB as
+well:
+
+```rb
+class String
+  def report_on_self
+    "Self is: #{self}"
+  end
+end
+```
+
+Then use the `#report_on_self` method on any string:
+
+```rb
+"hello".report_on_self
+# => "Self is: hello"
+"this string".report_on_self
+# => "Self is: this string"
+```
+
 ## Instructions
 
 You'll be coding your solution in `lib/count_sentences.rb`. We'll be
