@@ -1,4 +1,5 @@
 describe String do
+
   describe "#sentence?" do 
     it "returns true if the string that you are calling this method on ends in a period." do 
       expect("Hi, my name is Sophie.".sentence?).to eq(true)
@@ -7,7 +8,6 @@ describe String do
     it "returns false if the string that you are calling this method on does NOT end in a period." do 
       expect("Hi, my name is Sophie".sentence?).to eq(false)
     end
-
   end
 
   describe "#question?" do 
@@ -18,7 +18,6 @@ describe String do
     it "returns false if the string that you are calling this method on does NOT end in question mark." do 
       expect("Happy Halloween!".question?).to eq(false)
     end
-
   end
 
   describe "#exclamation?" do 
@@ -29,12 +28,10 @@ describe String do
     it "returns false if the string that you are calling this method on does NOT end in a exclamation mark." do 
       expect("Hi, my name is Sophie".exclamation?).to eq(false)
     end
-
   end
 
   describe "#count_sentences" do
-
-    it  "returns the number of sentences in a string" do
+    it "returns the number of sentences in a string" do
       expect("one. two. three?".count_sentences).to eq(3)
     end
 
@@ -47,6 +44,5 @@ describe String do
       expect(complex_string.count_sentences).to eq(4)
     end
   end
-
 
 end
